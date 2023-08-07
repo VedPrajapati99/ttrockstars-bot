@@ -48,7 +48,7 @@
                 top.children[i].remove()
             }
             el.style = "background-color: black; color: greenyellow; width: auto;align-items: center;margin-top: 10px;margin-bottom: 10px;padding: 5px;border: 2px solid red; font-size: 20px; font-style: bold; font-family: monospace;";
-            el.innerHTML = "🤖 BOT ENABLED 🔥";
+            el.innerHTML = "🤖 BOT ENABLED BY VED🔥";
             top.appendChild(el);
     
             var id = setInterval(() => {
@@ -91,7 +91,7 @@
             }
             var gameOver = document.getElementsByClassName("stamp center mat-white-color")[0];
             if (gameOver != undefined) {
-                gameOver.innerHTML = "game won 😉"
+                gameOver.innerHTML = "game won by VED 😉"
             }
         }
 
